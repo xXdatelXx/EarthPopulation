@@ -13,7 +13,7 @@ async function fetchPopulation(): Promise<string> {
 	const response = await fetch('https://get-population.p.rapidapi.com/population', {
 		method: 'GET',
 		headers: {
-			'x-rapidapi-key': 'd532385157msh808a9b563f52d70p1fe83djsnc01a912edd35',
+			'x-rapidapi-key': 'YOUR-API-KEY',
 			'x-rapidapi-host': 'get-population.p.rapidapi.com'
 		}
 	});
