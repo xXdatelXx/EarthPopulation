@@ -23,3 +23,4 @@ async function fetchPopulation(): Promise<string> {
 
 	throw response.statusText;
 }
+ 
